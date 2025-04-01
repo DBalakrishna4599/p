@@ -34,12 +34,12 @@ const ProductCard = ({ product, addToCart }) => {
 // Products Page Component
 const ProductsPage = ({ cart, setCart }) => {
   const [products, setProducts] = useState([
-    { id: 1, name: 'Snake Plant', price: 24.99, category: 'low-light', image: 'snake-plant.jpeg' },
-    { id: 2, name: 'ZZ Plant', price: 29.99, category: 'low-light', image: 'zz-plant.jpeg' },
-    { id: 3, name: 'Fiddle Leaf Fig', price: 39.99, category: 'bright-light', image: 'fiddle-leaf.jpeg' },
-    { id: 4, name: 'Monstera Deliciosa', price: 34.99, category: 'bright-light', image: 'monstera.jpeg' },
-    { id: 5, name: 'Peace Lily', price: 19.99, category: 'flowering', image: 'peace-lily.jpeg' },
-    { id: 6, name: 'Phalaenopsis Orchid', price: 27.99, category: 'flowering', image: 'orchid.jpeg' }
+    { id: 1, name: 'Snake Plant', price: 24.99, category: 'low-light', image: '/p/images/snake-plant.jpeg' },
+    { id: 2, name: 'ZZ Plant', price: 29.99, category: 'low-light', image: '/p/images/zz-plant.jpeg' },
+    { id: 3, name: 'Fiddle Leaf Fig', price: 39.99, category: 'bright-light', image: '/p/images/fiddle-leaf.jpeg' },
+    { id: 4, name: 'Monstera Deliciosa', price: 34.99, category: 'bright-light', image: '/p/images/monstera.jpeg' },
+    { id: 5, name: 'Peace Lily', price: 19.99, category: 'flowering', image: '/p/images/peace-lily.jpeg' },
+    { id: 6, name: 'Phalaenopsis Orchid', price: 27.99, category: 'flowering', image: '/p/images/orchid.jpeg' }
   ]);
 
   const addToCart = (product) => {
